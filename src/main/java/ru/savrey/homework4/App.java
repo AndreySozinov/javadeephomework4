@@ -20,6 +20,13 @@ public class App {
         }
     }
 
+    /**
+     * Вычисление суммы элементов двумерного массива.
+     * @param arr двумерный массив с строковыми элементами.
+     * @return сумма элементов массива.
+     * @throws MyArraySizeException Несоответствие заданному размеру массива.
+     * @throws MyArrayDataException Нвозможность преобразования элемента массива в целое число.
+     */
     public static int sumArray4x4(String[][] arr) throws MyArraySizeException, MyArrayDataException{
         final int arrLength = 4;
         int result = 0;
