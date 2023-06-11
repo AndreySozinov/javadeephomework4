@@ -1,2 +1,7 @@
-package ru.savrey.homework4;public class MyArraySizeException {
+package ru.savrey.homework4;
+
+public class MyArraySizeException extends Exception{
+    public MyArraySizeException(String message) {
+        super(message);
+    }
 }
